@@ -1,14 +1,15 @@
 public class DFS {
     private int[] visitados;
     private int[] noVisitados; 
+    private Grafo grafo;
     
-    public DFS(Grafo grafo, int inicio) {
+    public DFS(Grafo gra, int inicio) {
         this.visitados = new int[grafo.getVertices()];
         this.noVisitados = inicializarNoVisitados(grafo.getVertices());
-        
+        this.grafo = gra;
         
         System.out.print("Búsqueda en profundida/DFS: ");
-        dfs(grafo.getMatrizAdyacencia(), inicio);
+        dfs(this.grafo.getMatrizAdyacencia(), inicio);
         System.out.println();
     }
 
