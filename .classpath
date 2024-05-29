@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Grafos Y Tablas/src"/>
+	<classpathentry kind="output" path="Grafos Y Tablas/out/production/Grafos Y Tablas"/>
+</classpath>
