@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class Grafo {
-    private int[][] matrizAdyacencia;
+    public int[][] matrizAdyacencia;
     private int vertices;
     private double densidadAristas;
 
@@ -27,7 +27,7 @@ public class Grafo {
             }
         }
     }
-
+    
     public int getVertices() {
         return vertices;
     }
